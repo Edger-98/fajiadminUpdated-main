@@ -1,0 +1,133 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+.App {
+  text-align: center;
+  display: flex;
+}
+.sidebar {
+  position: fixed;
+  overflow: auto;
+  width: 20vw;
+  background-color: #1F1F1F;
+  height: 100vh;
+  padding-top: 2vw;
+  margin-top: 2%;
+  padding-left: 1vw;
+  padding-right: 2vw;
+  
+}
+.sidebar::-webkit-scrollbar {
+  width: 5px;
+  margin-right: 10px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  background: #1F1F1F;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 6px;
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.sidebar a, .sidebar svg {
+  color: #fff;
+  font-size: 20px;
+}
+.sidebar .sidebarText span {
+  font-size: 14px !important;
+}
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.sidebar a.active {
+  background-color: #FD99C9;
+  border-radius: 8px;
+}
+.loginForm {
+  background: #FFF;
+  padding: 5% 3% !important;
+  border-radius: 25px;
+  box-shadow: 0 0px 10px #eee;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #eee;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.css-1d6wzja-MuiButton-startIcon {
+  display: inherit;
+  margin-right: 2px;
+  margin-top: -3px;
+}
+
+@media screen and (max-width: 1023px) {
+  .view_event_ticket {
+    width: 100% !important; 
+  }
+ 
+.sidebar{
+  width:15vw;
+  margin-top: 2%;
+}
+  
+  .MuiGrid-root.MuiGrid-container.MuiGrid-spacing-xs-3.css-zow5z4-MuiGrid-root {
+    margin-top: 5%;
+  }
+}
+@media (max-width: 768px) {
+  .sidebar {
+    width: 26vw;    
+    padding-top: 4vw;
+    margin-top: 2%;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    
+  }
+
+  .sidebar a, .sidebar svg {
+    font-size: 18px; 
+  }
+
+  .sidebar .sidebarText span {
+    font-size: 12px !important; 
+  }
+}
+
+  
+ 
+ 
